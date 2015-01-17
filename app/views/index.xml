@@ -2,7 +2,7 @@
 	<Collection src="characters"></Collection>
     <Window class="container">
         <TableView dataCollection="characters">
-            <TableViewRow title="{characterName}"></TableViewRow>
+            <TableViewRow title="{characterName}" characterName="{characterName}" image="{image}" onClick="showCharacter"></TableViewRow>
         </TableView>
     </Window>
 </Alloy>
